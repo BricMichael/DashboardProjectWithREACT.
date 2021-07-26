@@ -1,4 +1,4 @@
-import './sidebar.css'
+import './sidebar.css';
 import { Timeline, TrendingUp, Home, PermIdentity, Storefront,
 MailOutline, ChatBubbleOutline, WorkOutline, Report, 
 AccountBalanceWallet, ChromeReaderMode, TripOrigin } from '@material-ui/icons';

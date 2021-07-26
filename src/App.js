@@ -1,6 +1,7 @@
 import './app.css'
 import Sidebar from "./components/Sidebar/Sidebar";
 import Topbar from "./components/Topbar/Topbar"
+import Home from './pages/home/Home';
 
 const App = () => {
   return (
@@ -8,9 +9,9 @@ const App = () => {
         <Topbar />  
         <div className='container'>
           <Sidebar />
-          <div className="others">
-            <span>Others</span>
-          </div>   
+          <Home />
+           
+           
         </div>
 
       </>
