@@ -9,3 +9,54 @@
     font-size: 22px;
     font-family: 600;
 }
+
+.widgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLgTh {
+    text-align: left;
+}
+
+.widgetLgUser {
+    display: flex;
+    align-items: center;
+}
+
+.widgetLgDate, .widgetLgAmount{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.widgetLgImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.widgetLgName {
+    font-weight: bold;
+}
+
+.widgetLgButton {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.widgetLgButton.Approved {
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+.widgetLgButton.Declined{
+    background-color: #fff0f1;
+    color: #d95087;
+}
+.widgetLgButton.Pending {
+    background-color: #ebf1fe;
+    color: #2a7ad7;
+}

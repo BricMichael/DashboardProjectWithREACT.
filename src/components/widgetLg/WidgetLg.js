@@ -3,7 +3,7 @@ import './widgetLg.css';
 const WidgetLg = () => {
 
     const Button = ({ type }) => {
-        return <button className={ 'widgetLgButton' + type }>{ type }</button>
+        return <button className={ 'widgetLgButton ' + type }>{ type }</button>
     }
 
 
@@ -19,9 +19,9 @@ const WidgetLg = () => {
                  </tr>
                 <tr className='widgetLgTr'>
                     <td className='widgetLgUser'>
-                        <img src='' 
+                        <img src='https://us.123rf.com/450wm/lyashenko/lyashenko1607/lyashenko160700112/61564750-joven-empresaria-con-tel%C3%A9fono-en-la-cafeter%C3%ADa-empresaria-exitosa-mujer-joven-con-el-tel%C3%A9fono-y-la-computad.jpg?ver=6' 
                         alt='customers' 
-
+                        className='widgetLgImage'
                         />
                         <span className='widgetLgName'>Susan Carel</span>
                     </td>
@@ -33,9 +33,9 @@ const WidgetLg = () => {
                 </tr>
                 <tr className='widgetLgTr'>
                     <td className='widgetLgUser'>
-                        <img src='' 
+                        <img src='https://mujermexico.com/wp-content/uploads/2019/12/1-10.jpg' 
                         alt='customers' 
-
+                        className='widgetLgImage'
                         />
                         <span className='widgetLgName'>Susan Carel</span>
                     </td>
@@ -47,9 +47,9 @@ const WidgetLg = () => {
                 </tr>
                 <tr className='widgetLgTr'>
                     <td className='widgetLgUser'>
-                        <img src='' 
+                        <img src='https://mujermexico.com/wp-content/uploads/2019/12/1-10.jpg' 
                         alt='customers' 
-
+                        className='widgetLgImage'
                         />
                         <span className='widgetLgName'>Susan Carel</span>
                     </td>
@@ -61,9 +61,9 @@ const WidgetLg = () => {
                 </tr>
                 <tr className='widgetLgTr'>
                     <td className='widgetLgUser'>
-                        <img src='' 
+                        <img src='https://us.123rf.com/450wm/lyashenko/lyashenko1607/lyashenko160700112/61564750-joven-empresaria-con-tel%C3%A9fono-en-la-cafeter%C3%ADa-empresaria-exitosa-mujer-joven-con-el-tel%C3%A9fono-y-la-computad.jpg?ver=6' 
                         alt='customers' 
-
+                        className='widgetLgImage'
                         />
                         <span className='widgetLgName'>Susan Carel</span>
                     </td>
