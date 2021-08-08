@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Topbar from "./components/Topbar/Topbar"
 import Home from './pages/home/Home';
 import UserList from './pages/userList/UserList';
+import User from './pages/users/User';
 
 
 const App = () => {
@@ -14,8 +15,9 @@ const App = () => {
             <Sidebar />
 
             <Switch>
-                <Route path='/users' exact component={UserList} />
-                <Route path='/' exact component={Home} />
+                <Route path='/user/:userId' exact component={ User } />
+                <Route path='/users' exact component={ UserList } />
+                <Route path='/' exact component={ Home } />
             </Switch>            
         </div>
       </Router>
