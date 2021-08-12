@@ -5,6 +5,7 @@ import Topbar from "./components/Topbar/Topbar"
 import Home from './pages/home/Home';
 import UserList from './pages/userList/UserList';
 import User from './pages/users/User';
+import NewUser from './pages/newPage/NewUser';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
             <Sidebar />
 
             <Switch>
+                <Route path='/newUser' exact component={ NewUser } />
                 <Route path='/user/:userId' exact component={ User } />
                 <Route path='/users' exact component={ UserList } />
                 <Route path='/' exact component={ Home } />

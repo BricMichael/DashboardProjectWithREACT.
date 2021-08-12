@@ -29,14 +29,18 @@ const Sidebar = () => {
                 <div className='sidebarMenu'>
                     <h3 className='sidebarTitle'>Quick Menu</h3>
                      <ul className='sidebarList'>
-                         <li className='sidebarListItem'>
-                             <PermIdentity /> &nbsp;
-                             Users
-                         </li>
-                         <li className='sidebarListItem '>
-                             <Storefront /> &nbsp;
-                             Products
-                         </li>
+                         <Link to='/users' className='link'>
+                            <li className='sidebarListItem'>
+                                <PermIdentity /> &nbsp;
+                                Users
+                            </li>
+                         </Link>
+                        <Link className='link'>
+                            <li className='sidebarListItem '>
+                                <Storefront /> &nbsp;
+                                Products
+                            </li>
+                        </Link>
                          <li className='sidebarListItem'>
                             <AccountBalanceWallet /> &nbsp;
                             Transactions
