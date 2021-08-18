@@ -42,12 +42,12 @@ export const columnFunction = (state, setState) => {
             renderCell: ({row}) => {
 
                 const handleDelete = (id) => {
-                    setState( state.filter( user => user.id !== id ) )
+                    setState( state.filter( user => user.id !== id ) );
                 }
 
                 return (
                   <>
-                    <Link to='/'>
+                    <Link to={'/user/' + row.id}>
                         <button className='userListEdit'>Edit</button>
                     </Link>
                     <DeleteOutline 
