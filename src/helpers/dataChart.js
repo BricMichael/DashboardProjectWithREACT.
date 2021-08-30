@@ -46,9 +46,20 @@ export const dataChart = [
     {
         name: 'Dec',
         "Active User": 3000,
-    },
-    
-    
+    },   
+];
 
-   
-  ];
+export const productData = [
+    {
+      name: 'Jan',
+      "sales": 3000,
+    },
+    {
+        name: 'Feb',
+        "sales": 5000,
+    },
+    {
+        name: 'Mar',
+        "sales": 4000,
+    }
+];
