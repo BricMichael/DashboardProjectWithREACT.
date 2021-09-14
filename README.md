@@ -15,7 +15,8 @@
 
 ## Project
 
-![screenshot](https://raw.githubusercontent.com/BricMichael/Images-Projects/master/DashboradProject.jpg)
+![screenshot](https://raw.githubusercontent.com/BricMichael/Images-Projects/master/DashboardTop.png)
+![screenshot](https://raw.githubusercontent.com/BricMichael/Images-Projects/master/DashboardBottom.png)
 
 
 ## Contact

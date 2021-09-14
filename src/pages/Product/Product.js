@@ -8,7 +8,7 @@ import './product.css';
 const Product = () => {
     return (
         <div className='product'>
-            <div class='productTitleContainer'>
+            <div className='productTitleContainer'>
                 <h1 className='productTitle'>Product</h1>
                 <Link to='/newProduct'>
                     <button className='productAddButton'>Create</button>
@@ -65,7 +65,7 @@ const Product = () => {
                     <div className='productFormRight'>
                         <div className='productUpload'>
                             <img src='https://us.123rf.com/450wm/sebastiangauert/sebastiangauert1503/sebastiangauert150300051/38263012-empresaria-que-lee-la-informaci%C3%B3n-en-su-pc-de-la-tableta-como-ella-se-sienta-en-su-escritorio-en-la-.jpg?ver=6' alt='formImage' className='productUploadImg' />
-                            <label for='file'>
+                            <label htmlFor='file'>
                                 <Publish className='buttonFile'/>
                             </label>
                             <input type='file' id='file' style={{display: 'none'}}/>
