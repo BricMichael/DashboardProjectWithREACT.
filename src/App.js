@@ -8,6 +8,7 @@ import User from './pages/users/User';
 import NewUser from './pages/newPage/NewUser';
 import ProductList from './pages/ProductList/ProductList';
 import Product from './pages/Product/Product';
+import NewProduct from './pages/newProduct/NewProduct';
 
 
 const App = () => {
@@ -18,9 +19,9 @@ const App = () => {
             <Sidebar />
 
             <Switch>
-                {/* <Route path='/product/:productId' exact component={ ProductList } />
-                <Route path='/newProduct' exact component={ ProductList } /> */}
-                 <Route path='/product/:productId' exact component={ Product } />
+               
+                <Route path='/newProduct' exact component={ NewProduct} />
+                <Route path='/product/:productId' exact component={ Product } />
                 <Route path='/products' exact component={ ProductList } />
                 <Route path='/newUser' exact component={ NewUser } />
                 <Route path='/user/:userId' exact component={ User } />

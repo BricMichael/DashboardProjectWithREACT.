@@ -2,5 +2,5 @@
     display: flex;
     margin-top: 10px;
 }
-
+input:focus { outline: none; }
 .link { text-decoration: none; color: #555; }

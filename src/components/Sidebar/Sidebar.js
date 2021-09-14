@@ -12,10 +12,12 @@ const Sidebar = () => {
                 <div className='sidebarMenu'>
                     <h3 className='sidebarTitle'>Dashboard</h3>
                     <ul className='sidebarList'>
-                        <li className='sidebarListItem'>
-                            <Home /> &nbsp;
-                            Home
-                        </li>
+                        <Link to='/' className='link'>
+                            <li className='sidebarListItem'>
+                                <Home /> &nbsp;
+                                Home
+                            </li>
+                        </Link>
                         <li className='sidebarListItem '>
                             <Timeline /> &nbsp;
                             Analytics

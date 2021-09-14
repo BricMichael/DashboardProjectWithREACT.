@@ -1,3 +1,4 @@
+import { Publish } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
 import Chart from '../../components/charts/Chart';
 import { productData } from '../../helpers/dataChart';
@@ -9,7 +10,7 @@ const Product = () => {
         <div className='product'>
             <div class='productTitleContainer'>
                 <h1 className='productTitle'>Product</h1>
-                <Link to='./newproduct'>
+                <Link to='/newProduct'>
                     <button className='productAddButton'>Create</button>
                 </Link>
             </div>
@@ -43,8 +44,36 @@ const Product = () => {
                     </div>
                 </div>
             </div>
-            <div className='productBottom'></div>
+            <div className='productBottom'>
+                <form className='productForm'>
+                    <div className='productFormLeft'>
+                        <label className='productFormLeft'>Product Name</label>
+                        <input type='text' placeholder='Apple Airpod' />
 
+                        <label>In Stock</label>
+                        <select name='inStock' id='inStock' >
+                            <option value='yes'>Yes</option>
+                            <option value='no' >No</option>  
+                        </select>
+
+                        <label className='productFormLeft'>Active</label>
+                        <select name='inStock' id='inStock' >
+                            <option value='yes'>Yes</option>
+                            <option value='no' >No</option>  
+                        </select>
+                    </div>
+                    <div className='productFormRight'>
+                        <div className='productUpload'>
+                            <img src='https://us.123rf.com/450wm/sebastiangauert/sebastiangauert1503/sebastiangauert150300051/38263012-empresaria-que-lee-la-informaci%C3%B3n-en-su-pc-de-la-tableta-como-ella-se-sienta-en-su-escritorio-en-la-.jpg?ver=6' alt='formImage' className='productUploadImg' />
+                            <label for='file'>
+                                <Publish className='buttonFile'/>
+                            </label>
+                            <input type='file' id='file' style={{display: 'none'}}/>
+                        </div>
+                        <button className='productButton'>Update</button>
+                    </div>      
+                </form>
+            </div>
         </div>
     )
 }

@@ -52,14 +52,14 @@ export const dataChart = [
 export const productData = [
     {
       name: 'Jan',
-      "sales": 3000,
+      "Sales": 3000,
     },
     {
         name: 'Feb',
-        "sales": 5000,
+        "Sales": 5000,
     },
     {
         name: 'Mar',
-        "sales": 4000,
+        "Sales": 4000,
     }
 ];
